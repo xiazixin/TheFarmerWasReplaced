@@ -10,4 +10,5 @@ while True:
 	if x== length -1:
 		for i in range(get_world_size()):
 			move(West)
+			
 	
