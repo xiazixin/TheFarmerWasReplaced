@@ -16,7 +16,8 @@ def harvest_column():
 				harvest()
 			
 			if get_entity_type() == None:
-				plant(Entities.Carrot)
+				plant(Entities.Sunflower)
+				use_item(Items.Fertilizer)
 				
 			move(North)
 		
